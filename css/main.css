@@ -751,13 +751,21 @@ blockquote{
     padding-left: 1.5em;
 }
 
-code, kbd, pre, samp {
+pre, samp {
     font-size:13px;
     padding:1em 1.5em;
     border:1px dotted #ddd;
     border-left:2px solid #26C9FF;
     color:#666;
     display:block;
+    word-wrap:break-word;
+}
+
+code, kbd {
+    font-size:13px;
+    border:1px dotted #ddd;
+    color:#666;
+    display:inline-block;
     word-wrap:break-word;
 }
 
