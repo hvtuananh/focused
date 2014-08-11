@@ -33,7 +33,7 @@
 							<div class="meta-text">
 								<?php the_time('M j, Y') ?>
 								&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-								<img src="<?php echo get_template_directory_uri(); ?>/img/ico_comments.png"> &nbsp;&nbsp;<?php comments_popup_link('0 comments', '1 comment', ' % comments'); ?>
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico_comments.png" width="16" height="15"> &nbsp;&nbsp;<?php comments_popup_link('0 comments', '1 comment', ' % comments'); ?>
 							</div>
 						</div>
 						<h2><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
